@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'destaque';
+    src: url('../borracharia/fontes/moto-verse\ italic.ttf') format(TrueType);
+}
+@font-face{
+    font-family: 'destorcida';
+    src: url('../borracharia/fontes/Blacklisted.ttf') format(TrueType);
+}
+:root{
+    --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'destaque', cursive;
+    --fonte-destorcida:'destorcida',cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to left,rgb(40, 24, 24),rgb(188, 29, 29));
+}
+header{
+    background-color: rgb(150, 97, 33);
+    max-width: 1065px;
+    margin: auto;
+
+    
+}
+img.pequena{
+    width: 40%;
+}
+header > h1 {
+    font-family: var(--fonte-destaque); 
+    font-size: 3em;  
+}
+h1#principal{
+    color: white;
+    text-align: center;
+    
+}
+header > h2 {
+    font-family: var(--fonte-destorcida);
+    font-size: 3em;
+    
+}
+h2#h2-cabecalho {
+    font-family: var(--fonte-destorcida);
+    font-size: 3em;
+    text-align: center;
+}
+header > nav > a {
+    color: black;
+    padding: 0px 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-left: 10px;
+}
+header > nav > a:hover{
+    background-color: brown;
+    border-radius: 5px;
+    transition-duration: 1s;
+    
+}
+main{
+    background-color: bisque;
+    font-size: 1.5em;
+    min-width:300px;
+    max-width: 1025px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px ;    
+    box-shadow: 0px 0px 10px rgb(0,0,0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+article >ul{
+    list-style-type: '\2714';
+}
+h2.article1{
+    margin-top: 20px;
+}
+h2.article2{
+    margin-top: 20px;
+}
+h1.article3{
+    margin-top: 20px;
+}
+div.video{
+    background-color: rgb(150, 97, 33);;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+    
+}
+div.video > iframe{
+position: absolute;
+top:5% ;
+left:5% ;
+width:90% ;
+height:90% ;
+}
+
+h2.article4{
+    margin-top:50px;
+ }
+
+img#carro{
+    
+    width: 100%;
+}
+aside > p > a{
+    color: rgb(188, 29, 29);
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    text-decoration: none;
+}
+aside > p > a:hover{
+    text-decoration:underline ;
+}
+footer{
+    color: white;
+}
+p.rodape{
+    font-size: 1.8em;
+} 
+footer> p > a{
+    text-decoration: none;
+    color: white;
+}
+footer> p > a:hover{
+    background-color: bisque;
+    color: rgb(188, 29, 29);
+    border-radius: 5px;
+    
+}
