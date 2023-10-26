@@ -15,15 +15,18 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 body{
     background-image: linear-gradient(to left,rgb(40, 24, 24),rgb(188, 29, 29));
     margin: auto;
+    min-width: 150px;
 }
 header{
     background-color: rgb(150, 97, 33);
     max-width: 1065px;
+    min-width: 150px;
     margin: auto;
 
     
