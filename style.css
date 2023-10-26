@@ -128,6 +128,7 @@ aside > p > a:hover{
 }
 footer{
     color: white;
+    min-width: 550px;
 }
 p.rodape{
     font-size: 1.8em;
