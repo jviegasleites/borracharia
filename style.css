@@ -19,6 +19,7 @@
 
 body{
     background-image: linear-gradient(to left,rgb(40, 24, 24),rgb(188, 29, 29));
+    margin: auto;
 }
 header{
     background-color: rgb(150, 97, 33);
