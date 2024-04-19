@@ -68,6 +68,7 @@ header > nav > a:hover{
     transition-duration: 1s;
     
 }
+
 main{
     background-color: bisque;
     font-size: 1.5em;
@@ -84,6 +85,18 @@ main{
 article >ul{
     list-style-type: '\2714';
 }
+
+ h2.tabela > a {
+    color: black;
+    padding:-10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+h2.tabela > a:hover{
+    color: brown
+}
+
 h2.article1{
     margin-top: 20px;
 }
