@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de preços</title>
+    <style>
+                body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            background-image: linear-gradient(to left,rgb(185, 196, 42),rgb(213, 247, 22));
+            min-width: 150px;
+}
+        
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            border: 1px solid black;
+            padding: 10px;
+            background-color: gray;
+            color: white;
+        }
+
+        tbody > tr > th {
+            background-color: gray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td.escuro{
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Lista De Preços</h1>
+
+    <table>
+
+        <caption><strong>Tabela de preços Atualizada</strong></caption>
+
+        <thead>
+            <tr id="cabecalho">
+                <th>Descrição do Serviço</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="2">Carros</th>
+            </tr>
+
+            <tr>
+                <td>Concerto Externo Pneu de Carro</td>
+                <td>R$25,00</td>
+            </tr>
+
+            <tr>
+                <td class="escuro">Concerto Interno Pneu de Carro</td>
+                <td class="escuro">R$30,00</td>
+            </tr>
+
+            <tr>
+                <td>Montagem Pneu de Carro</td>
+                <td>R$20,00</td>
+            </tr>
+            
+            <tr>
+                <td class="escuro">Rodízio Pneu de Carro</td>
+                <td class="escuro">R$30,00</td>
+            </tr>
+
+            
+            <tr>
+                <td>Válvula Pneu de Carro</td>
+                <td>R$30,00</td>
+            </tr>
+
+            <tr>
+                <td class="escuro">câmara Pneu de Carro</td>
+                <td class="escuro">R$75,00</td>
+            </tr>
+
+            <tr>
+                <th colspan="2">motos</th>
+            </tr>
+
+            <tr>
+                <td>Conserto pneu de Moto</td>
+                <td>R$30,00</td>
+            </tr>
+            
+            <tr>
+                <td class="escuro">Montagem pneu de moto</td>
+                <td class="escuro">R$25,00</td>
+            </tr>
+
+            <tr>
+                <td>Câmara de Moto 14", 17", 18"</td>
+                <td>R$55,00</td>
+            </tr>
+
+            <tr>
+                <td class="escuro">Câmara  D/T, XRE, Falcom</td>
+                <td class="escuro">R$65,00</td>
+            </tr>
+
+            <tr>
+                <td>Pneu 14", 18" trazeiro instalado</td>
+                <td>R$200,00</td>
+            </tr>
+
+            <tr>
+                <td class="escuro">Pneu 14", 18" dianteiro instalado</td>
+                <td class="escuro">R$190,00</td>
+            </tr>
+
+            <tr>
+                <th colspan="2">Carrinho de Mão</th>
+            </tr>
+
+            <tr>
+                <td>Conserto Pneu carro de mão</td>
+                <td>R$15,00</td>
+            </tr>
+
+            <tr>
+                <td class="escuro"> Montagem Pneu carro de mão</td>
+                <td class="escuro">R$10,00</td>
+            </tr>
+
+            <tr>
+                <td>Câmara carro de mão</td>
+                <td>R$35,00</td>
+            </tr>
+
+            <tr>
+                <td class="escuro"> Pneu carro de mão</td>
+                <td class="escuro">R$55,00</td>
+            </tr>
+
+            <tr>
+                <th colspan="2">Carga de bateria</th>
+            </tr>
+
+            <tr>
+                <td>Carga de Bateria carro</td>
+                <td>R$25,00</td>
+            </tr>
+
+            <tr>
+                <td class="escuro"> Carga de bateria moto</td>
+                <td class="escuro">R$20,00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
