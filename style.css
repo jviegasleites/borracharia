@@ -19,7 +19,7 @@
 }
 
 body{
-    background-image: linear-gradient(to left,rgb(40, 24, 24),rgb(188, 29, 29));
+    background-image: linear-gradient(to left,rgb(40, 24, 24),rgb(161, 10, 10));
     margin: auto;
     min-width: 150px;
 }
@@ -70,7 +70,7 @@ header > nav > a:hover{
 }
 
 main{
-    background-color: bisque;
+    background-image: linear-gradient(to left,rgb(40, 24, 24),grey);
     font-size: 1.5em;
     min-width:550px;
     max-width: 1025px;
@@ -86,15 +86,14 @@ article >ul{
     list-style-type: '\2714';
 }
 
- h2.tabela > a {
+ div > h2.tabela2 > a {
     color: black;
-    padding:-10px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    padding: -10px;
 }
 
-h2.tabela > a:hover{
-    color: brown
+h2.tabela2 > a:hover{
+    background-color: bisque;
+    color: brown;
 }
 
 h2.article1{
